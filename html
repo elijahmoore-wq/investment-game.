@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Investment Clicker Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>💰 Investment Clicker</h1>
+  <div id="game">
+    <p>Money: $<span id="money">0</span></p>
+    <p>Income/sec: $<span id="income">0</span></p>
+    <button id="clicker">💵 Earn $1</button>
+
+    <h2>Investments</h2>
+    <div id="investments">
+      <button class="investment" data-cost="10" data-income="1">Lemonade Stand ($10)</button>
+      <button class="investment" data-cost="100" data-income="5">Stock Portfolio ($100)</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
